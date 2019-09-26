@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background2"
+    tools:context=".ExpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_margin="15dp"
+            app:cardCornerRadius="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/exp_school"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="5dp"
+                    android:text="@string/smktaruna"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:textStyle="italic"></TextView>
+
+                <TextView
+                    android:id="@+id/text_school"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/exp_school"
+                    android:layout_margin="4dp"
+                    android:padding="5dp"
+                    android:text="I have been studying in Vocational High School Taruna Bhakti for almost 3 years. while i was studying in Vocational High School Taruna Bhakti, i learned about many things from :\nHTML\nJavaScript\nCSS\nMySQL\nPHP, etc."
+                    android:textSize="14dp"></TextView>
+
+                <TextView
+                    android:id="@+id/exp_dicoding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_school"
+                    android:layout_margin="4dp"
+                    android:padding="5dp"
+                    android:text="@string/dicoding"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:textStyle="italic"></TextView>
+
+                <TextView
+                    android:id="@+id/text_dicoding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/exp_dicoding"
+                    android:layout_margin="4dp"
+                    android:padding="5dp"
+                    android:text="@string/text_dicoding"
+                    android:textSize="14dp"></TextView>
+
+                <TextView
+                    android:id="@+id/exp_sololearn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text_dicoding"
+                    android:layout_margin="4dp"
+                    android:padding="5dp"
+                    android:text="@string/sololearn"
+                    android:textColor="@android:color/black"
+                    android:textSize="16dp"
+                    android:textStyle="italic"></TextView>
+
+                <TextView
+                    android:id="@+id/text_sololearn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/exp_sololearn"
+                    android:layout_margin="4dp"
+                    android:padding="5dp"
+                    android:text="Sololearn is an application specifically designed for learning programming. Besides this application also applies Learning and Practice, where you don't just learn the basic codes. In addition, you are also presented with questions that are in accordance with previous learning topics, so you can also practice them. I have been studying in SoloLearn for a year, in SoloLearn I have learned HTML, CSS, PHP, and currently I am learning MySQL"
+                    android:textSize="14dp"></TextView>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="?android:attr/windowBackground"
+            app:menu="@menu/bottom_navigation" />
+    </LinearLayout>
+
+</ScrollView>

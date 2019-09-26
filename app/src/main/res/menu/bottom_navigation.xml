@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_exp"
+        android:icon="@drawable/ic_explore_black_24dp"
+        android:title="@string/exp" />
+    <item
+        android:id="@+id/nav_certificate"
+        android:icon="@drawable/ic_layers_black_24dp"
+        android:title="@string/certificate" />
+
+</menu>

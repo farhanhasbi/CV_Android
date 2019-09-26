@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CV Android</string>
+    <string name="desc_about">my name is farhan hasbi,i usually called farhan,I was born in Depok January 20, 2002, i in Vocational High School Taruna Bhakti majored in software engineering,i hope  i can be professional web developer</string>
+    <string name="sekolah">Vocational High Scholl Taruna Bhakti</string>
+    <string name="gmail">farhanhasbi512@gmail.com</string>
+    <string name="fb">Farhan Hasbi</string>
+    <string name="ig">-</string>
+    <string name="maps">Perumahan Jatijajar Blok D24 No 16</string>
+    <string name="phone_number">+62 896 5626 0749</string>
+    <string name="title_activity_experience">ExperienceActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="certificate">Certificate</string>
+    <string name="exp">Experience</string>
+    <string name="smktaruna">Vocational High School Taruna Bhakti</string>
+    <string name="dicoding">DiCoding</string>
+    <string name="text_dicoding">DiCoding is a program specifically designed for application developers in Indonesia, with various classes (\'Academy\') that can be studied online, challenges (\'Challenges\') that can be worked on, and activities (\'Events\') that can be followed. For each challenge completed, the application developer will be given points that can be exchanged for prizes according to the DiCoding and XP catalog which are \'Reputation\'. Events and Academy may have points or XP, but their value varies. I studied in DiCoding for a year, there I learned about Java and Android Beginners</string>
+    <string name="sololearn">SoloLearn</string>
+    <string name="code_name">Code Name</string>
+    <string name="summary">Summary</string>
+    <string name="description">Description</string>
+</resources>

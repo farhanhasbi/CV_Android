@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="10"
+    android:background="@drawable/background2"
+    tools:context=".SkillActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_weight="2"
+        android:layout_marginBottom="20dp">
+
+        <ViewFlipper
+            android:id="@+id/v_fliper"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_centerHorizontal="true">
+
+
+        </ViewFlipper>
+
+        <TextView
+            android:id="@+id/tulis"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="My Skill"
+            android:textAlignment="center"
+            android:textSize="17dp"
+            android:layout_marginTop="21dp"
+            android:textStyle="bold"
+            android:textColor="#F30707"
+            android:layout_below="@id/v_fliper"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/htmlicon"
+            android:layout_marginTop="10dp"
+            android:id="@+id/html"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/tulis"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_toRightOf="@id/html"
+            android:layout_below="@id/tulis"
+            android:layout_marginTop="35dp"
+            android:layout_width="200dp"
+            android:max="100"
+            android:progress="82"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="82%"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_below="@id/progressBar"
+            android:layout_toRightOf="@id/progressBar"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-24dp"/>
+
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/cssicon"
+            android:layout_marginTop="20dp"
+            android:id="@+id/css"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/html"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_toRightOf="@id/css"
+            android:layout_below="@id/html"
+            android:layout_marginTop="45dp"
+            android:layout_width="200dp"
+            android:max="100"
+            android:progress="85"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="85%"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_below="@id/progressBar2"
+            android:layout_toRightOf="@id/progressBar2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-24dp"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/sqlicon"
+            android:layout_marginTop="20dp"
+            android:id="@+id/sql"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/css"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar3"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_toRightOf="@id/sql"
+            android:layout_below="@id/css"
+            android:layout_marginTop="45dp"
+            android:layout_width="200dp"
+            android:max="100"
+            android:progress="70"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="70%"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_below="@id/progressBar3"
+            android:layout_toRightOf="@id/progressBar3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-24dp"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/javaicon"
+            android:layout_marginTop="20dp"
+            android:id="@+id/java"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/sql"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar4"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_toRightOf="@id/java"
+            android:layout_below="@id/sql"
+            android:layout_marginTop="45dp"
+            android:layout_width="200dp"
+            android:max="100"
+            android:progress="55"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="55%"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_below="@id/progressBar4"
+            android:layout_toRightOf="@id/progressBar4"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-24dp"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/jsicon"
+            android:layout_marginTop="20dp"
+            android:id="@+id/js"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/java"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar5"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_toRightOf="@id/js"
+            android:layout_below="@id/java"
+            android:layout_marginTop="45dp"
+            android:layout_width="200dp"
+            android:max="100"
+            android:progress="72"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="68%"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_below="@id/progressBar5"
+            android:layout_toRightOf="@id/progressBar5"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-24dp"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/phpicon"
+            android:layout_marginTop="20dp"
+            android:id="@+id/php"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/js"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar6"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_toRightOf="@id/php"
+            android:layout_below="@id/js"
+            android:layout_marginTop="45dp"
+            android:layout_width="200dp"
+            android:max="100"
+            android:progress="58"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="70%"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_below="@id/progressBar6"
+            android:layout_toRightOf="@id/progressBar6"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-24dp"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/asicon"
+            android:layout_marginTop="20dp"
+            android:id="@+id/as"
+            android:layout_marginRight="20dp"
+            android:layout_below="@id/php"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar7"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_toRightOf="@id/as"
+            android:layout_below="@id/php"
+            android:layout_marginTop="45dp"
+            android:layout_width="200dp"
+            android:max="100"
+            android:progress="55"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="55%"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_below="@id/progressBar7"
+            android:layout_toRightOf="@id/progressBar7"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-24dp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>
